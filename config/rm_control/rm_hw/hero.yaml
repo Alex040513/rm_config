@@ -2,7 +2,7 @@ rm_hw:
   bus:
     - can0
     - can1
-    - can2
+#    - can2
   loop_frequency: 1000
   cycle_time_error_threshold: 0.001
   thread_priority: 95
