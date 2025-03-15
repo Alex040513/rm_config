@@ -172,7 +172,7 @@ controllers:
         k_v: 1.0
       pitch:
         joint: "pitch_joint"
-        pid: { p: 0.8, i: 10.0, d: 0.0, i_clamp_max: 0.2, i_clamp_min: -0.2, antiwindup: true, publish_state: false }
+        pid: { p: 0.7, i: 10.0, d: 0.0, i_clamp_max: 0.2, i_clamp_min: -0.2, antiwindup: true, publish_state: false }
         pid_pos: { p: 16.0, i: 0, d: 0.0, i_max: 0.0, i_min: 0.0, antiwindup: true, publish_state: false }
         k_v: 1.0
     chassis_vel:
@@ -212,9 +212,9 @@ controllers:
     controllers:
       yaw:
         joint: "base_yaw_joint"
-        pid: { p: 0.35, i: 9.0, d: 0.0, i_clamp_max: 0.18, i_clamp_min: -0.18, antiwindup: true, publish_state: false }
+        pid: { p: 0.2, i: 6.0, d: 0.0, i_clamp_max: 0.1, i_clamp_min: -0.1, antiwindup: true, publish_state: false }
         pid_pos: { p: 10.0, i: 0.0 , d: 0.0, i_max: 0.0, i_min: 0.0, antiwindup: true, publish_state: false }
-        k_chassis_vel: 1.35
+        k_chassis_vel: 1.25
         k_v: 1.0
     chassis_vel:
       num_data: 20
